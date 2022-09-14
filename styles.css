@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap");
+body {
+  margin: 0px;
+  background-color: #fef9c3;
+}
+.minion {
+  font-family: "Kalam", cursive;
+  text-align: center;
+}
+header {
+  margin-bottom: 4rem;
+  background-color: #fcd34d;
+  color: black;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  height: 10vh;
+  text-align: center;
+  padding-inline-start: 0px;
+}
+
+textarea {
+  width: 65%;
+  display: block;
+  padding: 1rem;
+  height: 15vh;
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+
+div {
+  background-color: white;
+}
+
+#btn-translate {
+  color: black;
+  background-color: #fcd34d;
+  display: block;
+  padding: 1rem 3rem;
+  border: 0px;
+  border-radius: 0.5rem;
+  font-size: larger;
+  margin: auto;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#output {
+  border: 1px solid black;
+  display: block;
+  max-width: 700px;
+  height: 15vh;
+  margin: auto;
+  margin-bottom: 5rem;
+  width: 65%;
+}
+
+footer {
+  background-color: #fcd34d;
+  color: black;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding-inline-start: 0px;
+}
+
+.list-non-bullet {
+  list-style: none;
+  padding-inline-start: 0px;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.list-item-inline {
+  display: inline;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  padding: 1.5rem;
+
+  font-weight: bold;
+}
