@@ -10,9 +10,8 @@ function getTranslatedURL(text) {
 
 function errorHandler(error) {
   console.log("error occured", error);
-  alert(
-    "Something went wrong with the website! Please try again after sometime!"
-  );
+  outputDiv.innerText =
+    "Something went wrong with the website! Please try again after sometime!❌";
 }
 
 function clickEventHandler() {
